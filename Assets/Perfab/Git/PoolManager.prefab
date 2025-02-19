@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4176472905935285505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4440305544402505620}
+  - component: {fileID: 8886314514380313974}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4440305544402505620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176472905935285505}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8886314514380313974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176472905935285505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a45b1ef9558bbb41910d629dec269fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BuffItemPools:
+  - prefab: {fileID: 2678774638647397822, guid: 6f4a8c903d7f2714bbad524fb3fc7dd1, type: 3}
+    size: 2
+  - prefab: {fileID: 2436661561882581259, guid: ffa9aad2213daee41a10e5ec35394eaf, type: 3}
+    size: 2
+  - prefab: {fileID: 4312272412896607827, guid: 5dfa400111b23c04c8e22a8f4b3b4a09, type: 3}
+    size: 2
+  - prefab: {fileID: 3574000426476804844, guid: b038df440c653bb4a8d2a104518516f5, type: 3}
+    size: 10
+  MonsterPools:
+  - prefab: {fileID: 8950335923821243744, guid: f9e979c97300e1f43b267ae9aecbda51, type: 3}
+    size: 45
+  - prefab: {fileID: 666052458265602436, guid: b3c3886289bfafe41a816629f42c0716, type: 3}
+    size: 45
